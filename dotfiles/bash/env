@@ -1,0 +1,3 @@
+export PATH=$PATH:~/bin:$HOME/.rvm/bin:/usr/local/mysql/bin:/usr/local/sbin
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"

@@ -1,0 +1,27 @@
+# Apache
+alias hosts='sudo vim /etc/hosts' #edit hosts file
+alias vhosts='sudo vim /etc/apache2/extra/httpd-vhosts.conf' #edit vhosts apache config
+
+# Ruby
+alias be="bundle exec" #Bundler
+
+# Processes
+alias tu='top -o cpu' #cpu
+alias tm='top -o vsize' # memory
+
+# Git
+alias g='git status' # git status
+alias gc='git commit -v' # git commit
+alias gd='git diff' #git diff
+
+# Bash
+alias reload='source ~/bin/dotfiles/bashrc'
+alias ea='sublime -w ~/bin/dotfiles/bash/aliases && reload'
+
+# Terminal
+alias l='ls -lahG' # human readable dir listing
+alias ..='cd ..' # back a dir
+
+# Development
+alias www='cd /www' # jump to webroot
+

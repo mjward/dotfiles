@@ -16,7 +16,7 @@ alias gd='git diff' #git diff
 
 # Bash
 alias reload='source ~/bin/dotfiles/bashrc'
-alias ea='sublime -w ~/bin/dotfiles/bash/aliases && reload'
+alias ea='sudo vim ~/bin/dotfiles/bash/aliases'
 
 # Terminal
 alias l='ls -lahG' # human readable dir listing
